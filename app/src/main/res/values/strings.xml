@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="nombreApplicationSplash">TECH WAY</string>
+    <string name="firmaSplash">Johan Rojas</string>
+    <string name="descripcionHome">Inicia una nueva aventura con Tech Way y descubre una nueva forma de ver el mundo</string>
+    <string name="hello_world">¡Hola Mundo!</string>
+    <string name="logo_description">Logo de la aplicación</string>
+    <string name="descripcionLogin">la aventura esta por iniciar , por favor inicia sesion</string>
+    <string name="textoCampoNombre">Nombre</string>
+    <string name="campoContra">Contraseña</string>
+    <string name="textoBotonHome">Comienza</string>
+    <string name="registrateHome">Registrate</string>
+    <string name="textoBotonLogin">Ingresar</string>
+    <string name="recuperaTuPassword">Recupera tu contraseña</string>
+    <string name="registratelogin">Registrate</string>
+    <string name="no_tienes_cuenta">No tienes cuenta?</string>
+    <string name="ingresa_con_google">Ingresa con Google</string>
+</resources>

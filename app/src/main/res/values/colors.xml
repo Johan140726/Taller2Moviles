@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorFondoApplication">#7289CD</color>
+    <color name="colorLetraSplash">#FFFFFF</color>
+    <color name="colorLetraDescripcionHome">#000000</color>
+    <color name="colorCampos">#FFFFFF</color>
+    <color name="colorhint">#3C3C3C</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="aguamarina">#27B0DC</color>
+</resources>

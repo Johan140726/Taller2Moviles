@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorLetraBlanco">#FFFFFF</color>
+    <color name="colorFondoApplication">#7289CD</color>
+    <color name="colorLetraSplash">#FFFFFF</color>
+    <color name="colorCampos">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
