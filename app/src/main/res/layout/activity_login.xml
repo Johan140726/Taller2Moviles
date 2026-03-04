@@ -1,206 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorFondoApplication"
-    tools:context=".Activities.LoginActivity">
+    tools:context=".Activities.LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
 
 
-    <ImageView
-        android:id="@+id/logoLogin"
-        android:layout_width="137dp"
-        android:layout_height="128dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.043"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044"
-        app:srcCompat="@drawable/logo_app" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="20dp">
 
-    <TextView
-        android:id="@+id/nombreAppHome"
-        android:layout_width="263dp"
-        android:layout_height="51dp"
-        android:fontFamily="@font/tiro_bangla_italic"
-        android:text="@string/nombreApplicationSplash"
-        android:textAlignment="center"
-        android:textColor="@color/colorLetraSplash"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.783"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.092" />
+        <ImageView
+            android:id="@+id/logoLogin"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logo_app" />
+
+        <TextView
+            android:id="@+id/tituloRegistro"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:fontFamily="@font/tiro_bangla_italic"
+            android:text="@string/nombreApplicationSplash"
+            android:textAlignment="center"
+            android:textColor="@color/colorLetraSplash"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
 
     <TextView
         android:id="@+id/descripcionLogin"
-        android:layout_width="338dp"
-        android:layout_height="74dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/tiro_bangla_italic"
         android:text="@string/descripcionLogin"
         android:textAlignment="center"
         android:textColor="@color/colorLetraDescripcionHome"
-        android:textSize="24sp"
+        android:textSize="22sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.78"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.252" />
+        android:layout_marginBottom="16dp"/>
 
-    <ImageView
-        android:id="@+id/sesionimaen"
-        android:layout_width="112dp"
-        android:layout_height="174dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.472"
-        app:srcCompat="@drawable/perfil_contra" />
 
-    <EditText
-        android:id="@+id/et_nombre"
-        android:layout_width="237dp"
-        android:layout_height="49dp"
-        android:background="@drawable/style_edit_text"
-        android:ems="10"
-        android:hint="@string/textoCampoNombre"
-        android:inputType="text"
-        android:paddingStart="15dp"
-        android:paddingEnd="15dp"
-        android:textColor="@color/black"
-        android:textColorHint="@color/colorhint"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.856"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.409" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp">
 
-    <EditText
-        android:id="@+id/et_contra"
-        android:layout_width="237dp"
-        android:layout_height="49dp"
-        android:background="@drawable/style_edit_text"
-        android:ems="10"
-        android:hint="@string/campoContra"
-        android:inputType="text"
-        android:paddingStart="15dp"
-        android:paddingEnd="15dp"
-        android:textColor="@color/black"
-        android:textColorHint="@color/colorhint"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.856"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.543" />
+        <ImageView
+            android:id="@+id/sesionimagen"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/perfil_contra"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingStart="10dp">
+
+            <EditText
+                android:id="@+id/campoCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:background="@drawable/style_edit_text"
+                android:hint="@string/textoCampoCorreo"
+                android:inputType="textEmailAddress"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorhint"/>
+
+            <EditText
+                android:id="@+id/et_contra"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/style_edit_text"
+                android:hint="@string/campoContra"
+                android:inputType="textPassword"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/colorhint"/>
+        </LinearLayout>
+    </LinearLayout>
+
 
     <Button
         android:id="@+id/botonLogin"
-        android:layout_width="288dp"
+        android:layout_width="match_parent"
         android:layout_height="65dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="@color/white"
         android:text="@string/textoBotonLogin"
         android:textColor="@color/black"
-        android:textSize="34sp"
+        android:textSize="26sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.658"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.684"
         app:strokeColor="@color/black"
-        app:strokeWidth="3dp" />
+        app:strokeWidth="3dp"/>
+
 
     <TextView
         android:id="@+id/textoRecuperar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/tiro_bangla_italic"
         android:text="@string/recuperaTuPassword"
         android:textColor="@color/aguamarina"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.641"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75" />
+        android:textSize="20sp"
+        android:textStyle="bold"/>
 
-    <TextView
-        android:id="@+id/registrateLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/tiro_bangla_italic"
-        android:text="@string/registratelogin"
-        android:textColor="@color/aguamarina"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.809"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.942" />
-
-    <TextView
-        android:id="@+id/noTienesCuenta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/tiro_bangla_italic"
-        android:text="@string/no_tienes_cuenta"
-        android:textColor="@color/black"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.257"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.942" />
 
     <Button
         android:id="@+id/ingresaConGoogle"
-        android:layout_width="355dp"
+        android:layout_width="match_parent"
         android:layout_height="67dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="@color/white"
         android:text="@string/ingresa_con_google"
         android:textColor="@color/black"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:cornerRadius="2dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.732"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.884"
         app:strokeColor="@color/black"
-        app:strokeWidth="3dp" />
-
-    <ImageView
-        android:id="@+id/google"
-        android:layout_width="55dp"
-        android:layout_height="44dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.137"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.873"
-        app:srcCompat="@drawable/google_s" />
+        app:strokeWidth="3dp"
+        app:icon="@drawable/google_s"
+        app:iconGravity="textStart"
+        app:iconPadding="15dp"
+        app:iconSize="30dp"
+        app:iconTint="@null"/>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/noTienesCuenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tiro_bangla_italic"
+            android:text="@string/no_tienes_cuenta"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/registrateLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/tiro_bangla_italic"
+            android:text="@string/registratelogin"
+            android:textColor="@color/aguamarina"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

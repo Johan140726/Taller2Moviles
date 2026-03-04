@@ -17,4 +17,11 @@
     <string name="registratelogin">registrateLogin</string>
     <string name="no_tienes_cuenta">No tienes cuenta?</string>
     <string name="ingresa_con_google">Ingresa con Google</string>
+    <string name="tituloRegistro">Registro</string>
+    <string name="campoNombreRegistro">Nombres</string>
+    <string name="campoApellidosRegistro">Apellidos</string>
+    <string name="campoCorreoRegistro">Correo electronico</string>
+    <string name="campoContraRegistro">Contraseña</string>
+    <string name="campoRepetirContra">Repetir contraseña</string>
+    <string name="botonRegistrate">Registrate</string>
 </resources>

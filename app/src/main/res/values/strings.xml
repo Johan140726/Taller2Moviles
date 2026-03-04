@@ -5,7 +5,7 @@
     <string name="descripcionHome">Inicia una nueva aventura con Tech Way y descubre una nueva forma de ver el mundo</string>
     <string name="hello_world">¡Hola Mundo!</string>
     <string name="descripcionLogin">la aventura esta por iniciar , por favor inicia sesion</string>
-    <string name="textoCampoNombre">Nombre</string>
+    <string name="textoCampoCorreo">Correo electronico</string>
     <string name="campoContra">Contraseña</string>
     <string name="textoBotonHome">Comienza</string>
     <string name="registrateHome">Registrate</string>
@@ -14,4 +14,11 @@
     <string name="registratelogin">Registrate</string>
     <string name="no_tienes_cuenta">No tienes cuenta?</string>
     <string name="ingresa_con_google">Ingresa con Google</string>
+    <string name="tituloRegistro">Registro</string>
+    <string name="campoNombreRegistro">Nombres</string>
+    <string name="campoApellidosRegistro">Apellidos</string>
+    <string name="campoCorreoRegistro">Correo electronico</string>
+    <string name="campoContraRegistro">Contraseña</string>
+    <string name="campoRepetirContra">Repetir contraseña</string>
+    <string name="botonRegistrate">Registrarse</string>
 </resources>

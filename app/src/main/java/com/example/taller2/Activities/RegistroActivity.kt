@@ -10,16 +10,27 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.taller2.R
 
-class LoginActivity : AppCompatActivity() {
+class RegistroActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_registro)
 
-        val botonRegistrate = findViewById<TextView>(R.id.registrateLogin)
-        botonRegistrate .setOnClickListener {
-            val intent = Intent(this, RegistroActivity::class.java)
+
+        val botonRegistrate = findViewById<Button>(R.id.botonRegistrate)
+        botonRegistrate.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
+
+        val textIniciarSesion = findViewById<TextView>(R.id.tvLogin)
+        textIniciarSesion.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
+
+
+
+
     }
 }

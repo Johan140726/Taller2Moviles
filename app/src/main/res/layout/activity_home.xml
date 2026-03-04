@@ -1,88 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorFondoApplication"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
     tools:context=".Activities.SplashActivity">
 
     <ImageView
         android:id="@+id/imagenHome"
         android:layout_width="281dp"
         android:layout_height="230dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.031"
-        app:srcCompat="@drawable/logo_app" />
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo_app" />
 
     <TextView
-        android:id="@+id/nombreAppHome"
+        android:id="@+id/tituloRegistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/tiro_bangla_italic"
         android:text="@string/nombreApplicationSplash"
         android:textColor="@color/colorLetraSplash"
         android:textSize="48sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.373" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/descripcionLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
         android:fontFamily="@font/tiro_bangla_italic"
         android:text="@string/descripcionHome"
-        android:textAlignment="center"
         android:textColor="@color/colorLetraDescripcionHome"
         android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.528" />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/botonHome"
         android:layout_width="288dp"
         android:layout_height="65dp"
+        android:layout_marginTop="25dp"
         android:backgroundTint="@color/white"
         android:text="@string/textoBotonHome"
         android:textColor="@color/black"
         android:textSize="34sp"
-        android:textStyle="bold"
-        app:strokeColor="@color/black"
-        app:strokeWidth="3dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.689" />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/registrateHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/tiro_bangla_italic"
         android:text="@string/registrateHome"
         android:textColor="@color/aguamarina"
         android:textSize="33sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.86" />
+        android:textStyle="bold" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
