@@ -1,4 +1,5 @@
-package com.example.taller2.Activities
+package com.taller2.linearlayouts.ui.inicio
+
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler

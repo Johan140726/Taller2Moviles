@@ -1,4 +1,4 @@
-package com.example.taller2
+package com.taller2.linearlayouts
 
 import org.junit.Test
 

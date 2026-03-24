@@ -1,4 +1,4 @@
-package com.example.taller2
+package com.taller2.linearlayouts
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

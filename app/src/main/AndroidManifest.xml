@@ -10,22 +10,29 @@
         android:roundIcon="@mipmap/logo_application_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Taller2">
+
         <activity
-            android:name=".Activities.RegistroActivity"
+            android:name="com.taller2.linearlayouts.ui.main.MainActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.taller2.linearlayouts.ui.auth.RegistroActivity"
             android:exported="false"
-            />
+            android:windowSoftInputMode="adjustResize" />
+
         <activity
-            android:name=".Activities.LoginActivity"
+            android:name="com.taller2.linearlayouts.ui.auth.LoginActivity"
             android:exported="false" />
+
         <activity
-            android:name=".Activities.HomeActivity"
+            android:name="com.taller2.linearlayouts.ui.inicio.HomeActivity"
             android:exported="false" />
+
         <activity
-            android:name=".Activities.SplashActivity"
+            android:name="com.taller2.linearlayouts.ui.inicio.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

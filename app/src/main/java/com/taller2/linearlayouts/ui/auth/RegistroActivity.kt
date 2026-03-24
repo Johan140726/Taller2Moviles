@@ -1,7 +1,8 @@
-package com.example.taller2.Activities
+package com.taller2.linearlayouts.ui.auth
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -29,8 +30,15 @@ class RegistroActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val rootView = findViewById<ViewGroup>(R.id.main)
 
+        ViewCompat.setOnApplyWindowInsetsListener(rootView) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            val imeInsets = insets.getInsets(WindowInsetsCompat.Type.ime())
+            val bottomPadding = maxOf(systemBars.bottom, imeInsets.bottom)
 
-
+            v.setPadding(systemBars.left,systemBars.top, systemBars.right,bottomPadding)
+            insets
+        }
     }
 }
