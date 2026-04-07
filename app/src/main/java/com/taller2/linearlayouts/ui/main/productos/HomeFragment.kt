@@ -13,9 +13,9 @@ class HomeFragment : Fragment() {
 
     private val listaProductos = listOf(
         Product("Camisa Casual", 29.9, R.drawable.red_shirt),
-        Product("Camisa Sport", 39.9, R.drawable.red_shirt),
-        Product("Pantalon Jean", 49.9, R.drawable.red_shirt),
-        Product("Zapatos Deportivos", 59.9, R.drawable.red_shirt),
+        Product("Camiseta Sport", 39.9, R.drawable.camiseta_sport),
+        Product("Pantalon Jean", 49.9, R.drawable.jeanes),
+        Product("Zapatos Deportivos", 59.9, R.drawable.tenis_deportivos),
         )
 
     override fun onCreateView(
