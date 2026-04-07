@@ -33,5 +33,13 @@
     <string name="catalogom">Catalogo</string>
     <string name="carrito_de_compras">Carrito De Compras</string>
     <string name="mi_perfil">Mi Perfil</string>
+    <string name="navigation_drawer_open">Menu Abierto</string>
+    <string name="navigation_drawer_close">Menu Cerrado</string>
+    <string name="productos_destacados">Productos destacados</string>
+    <string name="imagendelproducto">imagenDelProducto</string>
+    <string name="agregar_al_carrito">Agregar al carrito</string>
+    <string name="catalogo_fragment">CATALOGO</string>
+    <string name="carrito_de_compras_f">Carrito De Compras</string>
+    <string name="mi_perfil_f">Mi Perfil</string>
 
 </resources>

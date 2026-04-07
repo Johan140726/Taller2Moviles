@@ -5,6 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true" 
     tools:context="com.taller2.linearlayouts.ui.main.MainActivity">
 
     <LinearLayout
@@ -61,13 +62,7 @@
             app:itemTextColor="@color/black"
             app:menu="@menu/bottom_nav_menu" />
 
-
-
-
     </LinearLayout>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="250dp" />
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"

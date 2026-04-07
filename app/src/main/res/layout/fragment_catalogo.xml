@@ -1,13 +1,28 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.taller2.linearlayouts.ui.main.productos.CatalogoFragment">
+    tools:context="com.taller2.linearlayouts.ui.main.productos.CatalogoFragment"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/colorFondoApplication">
 
-    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imagenCatalogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/catalogo"
+        android:layout_gravity="center"/>
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/catalogo_fragment"
+        android:textStyle="bold"
+        android:textSize="29sp"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:gravity="center"/>
 
-</FrameLayout>
+</LinearLayout>
