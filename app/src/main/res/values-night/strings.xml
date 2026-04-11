@@ -40,4 +40,12 @@
     <string name="catalogo_fragment">CATALOGO</string>
     <string name="carrito_de_compras_f">Carrito De Compras</string>
     <string name="mi_perfil_f">Mi Perfil</string>
+    <string name="editar_perfil">Editar Perfil</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos_hint_edit">Apellidos</string>
+    <string name="correo_electronico_hint_edit">Correo electrónico</string>
+    <string name="nueva_contra">Nueva contraseña</string>
+    <string name="repetir_nueva_contra">Repetir nueva contraseña</string>
+    <string name="guardar_cambios">Guardar Cambios</string>
+    <string name="editar_perfil_edit">Editar Perfil</string>
 </resources>

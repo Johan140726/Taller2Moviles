@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import com.example.taller2.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
+import com.taller2.linearlayouts.ui.main.perfil.EditarPerfilFragment
 import com.taller2.linearlayouts.ui.main.perfil.PerfilFragment
 import com.taller2.linearlayouts.ui.main.productos.CarritoFragment
 import com.taller2.linearlayouts.ui.main.productos.CatalogoFragment
@@ -51,6 +52,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.catalogoProductos -> cargarFragment(CatalogoFragment())
                 R.id.carritoCompras -> cargarFragment(CarritoFragment())
                 R.id.miPerfil -> cargarFragment(PerfilFragment())
+                R.id.editarPerfil -> cargarFragment(EditarPerfilFragment())
             }
             true
 
@@ -62,6 +64,7 @@ class MainActivity : AppCompatActivity() {
                R.id.catalogoProductos -> cargarFragment(CatalogoFragment())
                R.id.carritoCompras -> cargarFragment(CarritoFragment())
                R.id.miPerfil -> cargarFragment(PerfilFragment())
+               R.id.editarPerfil -> cargarFragment(EditarPerfilFragment())
            }
            drawerLayout.closeDrawers()
            true
