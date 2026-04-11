@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/colorFondoApplication"
+    tools:context="com.taller2.linearlayouts.ui.main.perfil.EditarPerfilFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/editar_perfil"
+            android:fontFamily="@font/tiro_bangla_italic"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="@color/colorLetraSplash"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:id="@+id/etNombresEdit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/nombres"
+            android:inputType="textPersonName"
+            android:background="@drawable/style_edit_text"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etApellidosEdit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/apellidos_hint_edit"
+            android:inputType="textPersonName"
+            android:background="@drawable/style_edit_text"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etCorreoEdit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/correo_electronico_hint_edit"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/style_edit_text"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etContraEdit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/nueva_contra"
+            android:inputType="textPassword"
+            android:background="@drawable/style_edit_text"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/etRepetirContraEdit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/repetir_nueva_contra"
+            android:inputType="textPassword"
+            android:background="@drawable/style_edit_text"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnGuardarCambios"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/guardar_cambios"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -18,4 +18,9 @@
         android:id="@+id/miPerfil"
         android:title="@string/mi_perfil"
         android:icon="@android:drawable/bottom_bar" />
+
+    <item
+        android:id="@+id/editarPerfil"
+        android:title="@string/editar_perfil_edit"
+        android:icon="@android:drawable/ic_menu_edit" />
 </menu>
