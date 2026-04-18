@@ -49,5 +49,6 @@
     <string name="repetir_nueva_contra">Repetir nueva contraseña</string>
     <string name="guardar_cambios">Guardar Cambios</string>
     <string name="editar_perfil_edit">Editar Perfil</string>
+    <string name="ingresa_con_la_huella">ingresa con la huella</string>
 
 </resources>

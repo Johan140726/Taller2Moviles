@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorFondoApplication"
-    tools:context="linearlayouts.example.linearlayouts.hol.LoginActivity"
+    tools:context="com.taller2.linearlayouts.ui.auth.LoginActivity"
     android:orientation="vertical"
     android:gravity="center_horizontal"
     android:padding="16dp">
@@ -75,7 +75,7 @@
             android:paddingStart="10dp">
 
             <EditText
-                android:id="@+id/campoCorreo"
+                android:id="@+id/etCorreo"
                 android:layout_width="match_parent"
                 android:layout_height="49dp"
                 android:background="@drawable/style_edit_text"
@@ -176,5 +176,16 @@
             android:textSize="20sp"
             android:textStyle="bold"/>
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/ingresarConHuella"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/tiro_bangla_italic"
+        android:text="@string/ingresa_con_la_huella"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
 
 </LinearLayout>
