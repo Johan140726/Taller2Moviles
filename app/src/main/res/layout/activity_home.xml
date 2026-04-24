@@ -7,7 +7,7 @@
     android:background="@color/colorFondoApplication"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="linearlayouts.example.linearlayouts.hol.SplashActivity">
+    tools:context="com.taller2.linearlayouts.ui.inicio.HomeActivity">
 
     <ImageView
         android:id="@+id/imagenHome"
