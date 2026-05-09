@@ -50,5 +50,32 @@
     <string name="guardar_cambios">Guardar Cambios</string>
     <string name="editar_perfil_edit">Editar Perfil</string>
     <string name="ingresa_con_la_huella">ingresa con la huella</string>
+    <string name="cerrar_sesion">cerrar sesion</string>
+    <string name="crear_productos">crear productos</string>
+    <string name="crear_empleados">crear empleados</string>
+    <string name="crear_usuarios">crear usuarios</string>
+    <string name="foto_de_perfil">foto_de_perfil</string>
+    <string name="editar_perfil2">Editar perfil</string>
+    <string name="cambiar_foto">cambiar foto</string>
+    <string name="foto_de_perfil_1">Foto de perfil</string>
+    <string name="apellidos_ed_perfil">Apellidos</string>
+    <string name="correo">correo_editar_perfil</string>
+    <string name="correo_ep">Correo</string>
+    <string name="nueva_contra_ep">Nueva contraseña</string>
+    <string name="repetir_nueva_contra_ep">Repetir nueva contraseña</string>
+    <string name="crear_usuario">Crear usuario</string>
+    <string name="ingresa_los_datos_del_nuevo_usuario">Ingresa los datos del nuevo usuario</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="ej">Ej. Juan García</string>
+    <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="ejemplo_correo_com">ejemplo@correo.com</string>
+    <string name="rol">Rol</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="rt">••••••••</string>
+    <string name="crear_usuario2">Crear usuario</string>
+    <string name="categor_a">Categoría</string>
+    <string name="descripci_n">Descripción</string>
+    <string name="escribe_una_descripci_n_del_producto">Escribe una descripción del producto...</string>
+    <string name="crear_producto">Crear producto</string>
 
 </resources>

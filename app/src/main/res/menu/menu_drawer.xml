@@ -4,23 +4,45 @@
         android:id="@+id/inicio"
         android:title="@string/home"
         android:icon="@android:drawable/ic_menu_today"
+        android:visible="true"
         />
 
     <item
         android:id="@+id/catalogoProductos"
         android:title="@string/catalogom"
-        android:icon="@android:drawable/alert_dark_frame" />
+        android:icon="@android:drawable/alert_dark_frame"
+        android:visible="true"/>
     <item
         android:id="@+id/carritoCompras"
         android:title="@string/carrito_de_compras"
-        android:icon="@android:drawable/btn_star_big_on" />
+        android:icon="@android:drawable/btn_star_big_on"
+        android:visible="true"/>
     <item
         android:id="@+id/miPerfil"
         android:title="@string/mi_perfil"
-        android:icon="@android:drawable/bottom_bar" />
+        android:icon="@android:drawable/bottom_bar"
+        android:visible="true"/>
 
     <item
         android:id="@+id/editarPerfil"
         android:title="@string/editar_perfil_edit"
-        android:icon="@android:drawable/ic_menu_edit" />
+        android:icon="@android:drawable/ic_menu_edit"
+        android:visible="true"/>
+
+    <item
+        android:id="@+id/cerrarsesion"
+        android:title="@string/cerrar_sesion"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:visible="true"/>
+    <item
+        android:id="@+id/crear_productos"
+        android:title="@string/crear_productos"
+        android:icon="@android:drawable/ic_menu_add"
+        android:visible="false"/>
+    <item
+        android:id="@+id/crear_usuarios"
+        android:title="@string/crear_usuarios"
+        android:icon="@android:drawable/ic_menu_add"
+        android:visible="false"/>
+
 </menu>

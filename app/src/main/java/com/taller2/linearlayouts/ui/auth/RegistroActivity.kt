@@ -36,7 +36,8 @@ class RegistroActivity : AppCompatActivity() {
     data class UsuarioData(
         val id: String,
         val nombres: String,
-        val apellidos: String
+        val apellidos: String,
+        val correo: String
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -119,7 +120,8 @@ class RegistroActivity : AppCompatActivity() {
                         UsuarioData(
                             id = userId,
                             nombres = nombres,
-                            apellidos = apellidos
+                            apellidos = apellidos,
+                            correo = correo
                         )
                     )
 

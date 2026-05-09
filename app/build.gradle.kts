@@ -43,6 +43,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.datastore.core)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -55,4 +56,6 @@ dependencies {
     implementation (libs.credential.manager)
     implementation(libs.credential.manager.play)
     implementation(libs.biometric)
+    implementation(libs.coil)
+    implementation(libs.supabase.storage)
 }
